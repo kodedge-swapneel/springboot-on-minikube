@@ -16,7 +16,7 @@
 2. Then add sample controller for creating rest api
 3. From the terminal cd into your project directory and build project using ``` ./gradlew clean build ```
 4. Start docker on the system
-5. Build docker image using : ```  docker build -t springboot-on-minikube .  ```
+5. Build docker image using : ```  docker build -t springboot-on-minikube .  ```  [Command reference](https://minikube.sigs.k8s.io/docs/drivers/docker/)
 6. Run the docker container: ``` docker run -p 8080:8080 springboot-on-minikube ``` and verify calling url ``` localhost:8080/data ```
 7. Now stop the container service and we will create helm chart.
 8. Run command to create helm chart :  ``` helm create ytkubechart ```
@@ -102,7 +102,8 @@
 27. verify changes using ``` cat /etc/hosts ```
 28. Enable tunnel running command : ``` minikube tunnel ```
 29. Then call url in browser : http://ytlecture.com/data
-30. Hurray :clap:  you have succesffuly depploy your first spring rest api on Kubernetes.      
+30. Hurray :clap:  you have succesffuly depploy your first spring rest api on Kubernetes.
+31. Stop minikube using : ``` minikube stop ```     
 
 
 ### If you want to start by cloning this repository, then perform following steps:
@@ -129,6 +130,7 @@
 15. verify changes using ``` cat /etc/hosts ```
 16. Enable tunnel running command : ``` minikube tunnel ```
 17. Then call url in browser : http://ytlecture.com/data
-18. Hurray :clap:  you have succesffuly depploy your first spring rest api on Kubernetes.  
+18. Hurray :clap:  you have succesffuly depploy your first spring rest api on Kubernetes.
+19. Stop minikube using : ``` minikube stop ``` 
 
     
