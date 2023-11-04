@@ -11,7 +11,7 @@
  - IDE and JDK
 
 
-## Perform follwing steps to deploy springboot app on minikube :
+## Perform following steps to deploy the spring boot app on Minikube :
 
 ### If you want to start from the scratch without cloning this repository, then perform following steps:
 
