@@ -1,4 +1,4 @@
-# Deploy Springboot application on Kubernetes cluster (minikube)
+# Deploy Spring Boot application on Kubernetes cluster (minikube)
 
 ## [Click here to watch the video for demonstration.](https://youtu.be/M6ZavWvKlcc)
 
@@ -105,7 +105,7 @@
 27. verify changes using ``` cat /etc/hosts ```
 28. Enable tunnel running command : ``` minikube tunnel ```
 29. Then call url in browser : http://ytlecture.com/data
-30. Hurray :clap:  you have succesffuly depploy your first spring rest api on Kubernetes.
+30. Hurray :clap:  you have successfully deployed your first spring rest api on Kubernetes.
 31. Stop minikube using : ``` minikube stop ```     
 
 
@@ -133,7 +133,7 @@
 15. verify changes using ``` cat /etc/hosts ```
 16. Enable tunnel running command : ``` minikube tunnel ```
 17. Then call url in browser : http://ytlecture.com/data
-18. Hurray :clap:  you have succesffuly depploy your first spring rest api on Kubernetes.
+18. Hurray :clap:  you have successfully deployed your first spring rest api on Kubernetes.
 19. Stop minikube using : ``` minikube stop ``` 
 
     
